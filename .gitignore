@@ -1,0 +1,15 @@
+# ソース名: .gitignore
+# Lang: Git ignore patterns
+# Function: 追跡から除外する OS・エディタ用ファイルのパターン
+# Note: 依存パッケージは使わない想定のため node_modules は未記載
+# Author:Takashi Oikawa
+# Date:2026/04/04
+# LastUp:2026/04/04
+
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.swp
+*~
